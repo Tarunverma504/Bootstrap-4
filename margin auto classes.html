@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta charset="UTF-8">
+        <style>
+            .container{
+                border: 8px solid black;
+                color:red;
+            }
+            .row{
+                border: 4px solid red;
+            }
+            .col, .col-md{
+                border:4px solid green;
+            }
+            h1{
+                text-align:center;
+                color:black;
+            }
+        </style>
+
+    </head>
+    <body>
+       <div class="container">
+           <h1> .m-auto</h1>
+           <div class="row">
+               <div class="col-md-4 m-auto" style="background-color:orange">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe repellat perspiciatis omnis amet nemo vel non dolor modi ducimus?
+               </div>
+           </div><br>
+           <h1> .ml-auto</h1>
+           <div class="row">
+            <div class="col-md-4 m-auto" style="background-color:orange">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe repellat perspiciatis omnis amet nemo vel non dolor modi ducimus?
+            </div>
+            <div class="col-md-4 ml-auto" style="background-color:pink">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe repellat perspiciatis omnis amet nemo vel non dolor modi ducimus?
+            </div>
+        </div><br>
+        <h1> For different side .m-*</h1>
+        <div class="row">
+            <div class="col-md-4 m-5" style="background-color:orange">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe repellat perspiciatis omnis amet nemo vel non dolor modi ducimus?
+            </div>  
+        </div>
+       </div>
+    </body>
+</html>
