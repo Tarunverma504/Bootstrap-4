@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta charset="UTF-8">
+        <style>
+            .container{
+                border: 8px solid black;
+                color:red;
+            }
+            .row{
+                border: 4px solid red;
+            }
+            h1{
+                text-align:center;
+            }
+            .nested_col{
+                border:2px solid black;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="background-color: orange;">
+                    <div class="row">
+                        <div class="col nested_col">col 1,1</div>
+                        <div class="col nested_col">col 1,2</div>
+                        <div class="col nested_col">col 1,3</div>
+                        <div class="col nested_col">col 1,4</div>
+                        <div class="col nested_col">col 1,5</div>
+                    </div>
+                </div>
+                <div class="col"  style="background-color: pink;"> col2</div>
+            </div>
+        </div>
+    </body>
+</html>
